@@ -3,7 +3,7 @@ using BepInEx.Configuration;
 using UnityEngine;
 
 
-[BepInPlugin("com.minimentwo.BossRespawn", "Boss Respawner", "1.0.0")]
+[BepInPlugin("com.minimentwo.BossRespawn", "Boss Respawner", "1.1.0")]
 public class BossRespawn : BaseUnityPlugin
 {
     private ConfigEntry<KeyCode> modifierKey;

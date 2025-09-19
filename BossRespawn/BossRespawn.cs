@@ -58,5 +58,18 @@ public class BossRespawn : BaseUnityPlugin
         __instance.defeatedLaceTower = false; //This is respawning Lace2
         __instance.defeatedPhantom = false; //Retriggers mist aswell
         __instance.hang04Battle = false; //The high halls ten wave battle
+        __instance.defeatedDockForemen = false; //Foreman brothers
+        __instance.wardBossDefeated = false;
+
+        //Act 3 Bosses
+        __instance.defeatedAntQueen = false;
+        __instance.defeatedCloverDancers = false; //Reunlocks Verdania too
+        __instance.defeatedWhiteCloverstag = false; //The White Cloverstag in Verdania
+        __instance.defeatedCoralKing = false;
+        __instance.defeatedFlowerQueen = false;
+        __instance.defeatedSeth = false;
+        __instance.defeatedCrowCourt = false;
+        __instance.defeatedAntTrapper = false;
+        //The Act 3 bosses locked behind wishes require some more shenanigans to unlock
     }
 }
